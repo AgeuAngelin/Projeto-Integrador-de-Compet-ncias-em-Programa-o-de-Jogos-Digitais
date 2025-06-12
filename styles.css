@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+  }
+  
+  header {
+    background: linear-gradient(to bottom right, #1f1f1f, #3f00ff);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  .cta {
+    margin-top: 30px;
+  }
+  
+  .cta input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 32px;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
